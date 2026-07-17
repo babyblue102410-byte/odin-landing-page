@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/*Global Styles*/
+
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -9,9 +11,27 @@ body {
     background-color: #F8FAFC;
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Header Styles */
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 header {
@@ -27,6 +47,8 @@ header,
     color: white;
 }
 
+/* Navigation Styles */
+
 nav {
     display: flex;
     gap: 20px;
@@ -35,11 +57,14 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: 600;
 }
+
+/* Hero Styles */
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 60px 50px;
 }
@@ -59,9 +84,9 @@ nav a {
 
 .hero-image img {
     width: 400px;
-    height: auto;
-    max-width: 100%;
 }
+
+/* Skills Section Styles */
 
 .card-container {
     display: flex;
@@ -91,6 +116,8 @@ nav a {
     padding: 50px;
 }
 
+/* Quote Section Styles */
+
 .quote {
     padding: 80px 100px;
     background-color: #E0F2FE;
@@ -112,28 +139,33 @@ nav a {
     font-weight: bold;
 }
 
+/* Call To Action Styles */
+
 .cta {
     padding: 50px;
     background-color: #2563EB;
     color: white;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 700;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.logo {
     font-size: 24px;
-    font-weight: bold;
 }
 
+.cta-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button Styles */
 
 button {
     background-color: #2563EB;
@@ -142,4 +174,18 @@ button {
     padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
 }
