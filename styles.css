@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #111827;
+    background-color: #F8FAFC;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header,
+.hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    color: #D1D5DB;
+    font-size: 18px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.skills {
+    padding: 50px;
+}
+
+.quote {
+    padding: 80px 100px;
+    background-color: #E0F2FE;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 50px; 
+    font-style: italic;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.quote span {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta {
+    padding: 50px;
+    background-color: #2563EB;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
